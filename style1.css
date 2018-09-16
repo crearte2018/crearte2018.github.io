@@ -1,0 +1,703 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #ecf0f1;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+p {
+    color: #524c56;
+    font-size: 160%;
+    line-height: 155%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 175%;
+    line-height: 155%;
+    font-weight: 500;
+    color: #524c56;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+a {
+    color: #524c56;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #c3d7df;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#banner-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+footer,.main, footer{
+     
+    width:900%;
+    max-width:1500px;
+    margin: 20px auto;
+}
+
+
+header nav{
+    background:black;
+    overflow:hidden;
+}
+
+header #logo img {
+    margin: 10px;
+    float: left;
+    width: 150px;
+    padding: 1px;
+    margin: 0px 5px 0px 0px;
+    border-radius: 15px;
+    border-radius: solid thin blue;
+    border: solid 3px red;
+    width: 15%;
+  transition: transform 1s;
+
+
+}
+.img_titulo{
+  width: 28%;
+  transition: transform 1s;
+  transform: rotate(-30deg);
+}
+
+.img_titulo:hover{
+  transform: rotate(0deg);
+}
+
+.cont_info{
+  list-style:none;
+  text-align:left;
+  color:black;
+  font-size:1.5em;
+  border: 3px solid;
+  width: 400;
+}
+.cont_info td{
+   border: 3px solid;
+  width: 400;
+}
+
+.enviar_email{
+  color:blue;
+}
+
+.boton_mapa{
+  color:red;
+  font-size:.8em;
+  background-color: #16222;
+}
+.boton_ipad{
+  color: #00ff00;
+  font-size:.9em;
+  background-color: #16222;
+}
+
+.foto{
+  width: 15%;
+  transition: transform 1s;
+  float: right;
+}
+
+.foto:hover{
+  transform: scale(2.5)
+}
+header #mario_logo img{
+  width: 15%;
+  transition: transform 1s;
+}
+header #mario_logo:hover{
+  transform: scale(2.5)
+}
+
+
+/* NAVIGATION*/
+
+*************************************************
+/****  COMMON SECTIONS STYLE ****/
+
+* {
+    letter-spacing: .5px;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.section {
+    margin-bottom: 75px;
+}
+
+.section-about,
+.section-skills .professional-skills,
+.section-skills .additional-skills,
+.section-contact-us .form-content,
+.section-contact-us .info-content {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15),0 2px 10px 0 rgba(0,0,0,0.11);
+}
+
+.section .header-section {
+    text-align: center;
+}
+
+.section h2 {
+    display: inline-block;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.section .h2-section {
+    margin-bottom: 56px;
+}
+
+.section h2,
+.section-pricing .pricing-price .number {
+    font-size: 40px;
+}
+
+.menu .logo {
+    font-size: 38px;
+}
+
+.section h3 {
+    font-size: 20px;
+}
+
+.section p,
+.section h4,
+.section-about .available i,
+.section-about .available span,
+.theme-option h4,
+.section-contact-us input[type="submit"] {
+    font-size: 16px;
+}
+
+.section-about .li-social-links a,
+.section-pricing .most-populaire span,
+.section-blog .read-more,
+.section-blog .load-more span,
+.section-blog h4,
+.section-blog .blog-detail .ul-detail,
+.single-blog .populaire-posts ul {
+    font-size: 14px;
+}
+
+.section h2,
+.section-about .download-resume {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.section p {
+    line-height: 28px;
+}
+
+
+
+
+
+/****  5-2 - SKILLS ****/
+
+.section-skills .h2-section {
+    margin-bottom: 70px;
+}
+
+.section-skills .professional-skills,
+.section-skills .additional-skills {
+    padding: 0 20px 20px;
+}
+
+    .section-skills .title-skills {
+        text-align: center;
+    }
+
+        .section-skills h3 {
+            display: inline-block;
+            position: relative;
+            top: -32px;
+            padding: 18px 28px;
+            box-shadow: 0 0 6px rgba(0,0,0,.3);
+        }
+
+    .section-skills .skill-value {
+        position: absolute;
+        right: 45px;
+    }
+
+    .section-skills .progress {
+        height: 14px;
+        margin-bottom: 13px;
+        border-radius: 0px;
+        box-shadow: 0 0 5px rgba(0,0,0,.4);
+    }
+
+        .section-skills .progress-bar {
+            height: 14px;
+            box-shadow: 0 0 5px rgba(0,0,0,.4);
+        }
+
+    .section-skills .circle {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+        .section-skills .chart-percentage {
+            position: absolute;
+            width: 80%;
+            top: 45px;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .section-skills .chart canvas {
+            width: 80px;
+            height: 70px;
+        }
+
+    .section-skills .other .skill {
+        padding-bottom: 6px;
+    }
+
+    .section-skills .other-skills i {
+        margin-right: 5px;
+    }
+
+
+
+
+/****  5-10 - CONTACT-US ****/
+
+.section-contact-us {
+    margin-bottom: 50px;
+}
+
+    .section-contact-us .form-content {
+        margin-bottom: 30px;
+        padding: 35px 40px 40px;
+    }
+
+        .section-contact-us h3 {
+            margin-bottom: 35px;
+        }
+
+        .section-contact-us input,
+        .section-contact-us textarea {
+            display: block;
+            width: 100%;
+            border: none;
+            background-color: transparent;
+            transition: all .3s;
+        }
+
+        .section-contact-us input {
+            margin-bottom: 22px;
+            height: 40px;
+        }
+
+        .section-contact-us textarea {
+            margin-bottom: 30px;
+            max-width: 100%;
+            min-width: 100%;
+            height: 100px;
+            max-height: 300px;
+        }
+
+        .section-contact-us input[type="submit"] {
+            margin-bottom: 5px;
+            width: 123px;
+            height: 45px;
+            border-bottom: none;
+            font-weight: bold;
+            transition: all .3s;
+        }
+
+    .section-contact-us .info-content {
+        margin-bottom: 30px;
+        padding: 35px 30px 40px;
+        min-height: 435px;
+    }
+
+        .section-contact-us .info-content div {
+            margin-bottom: 25px;
+        }
+
+            .section-contact-us .info-icon {
+                display: inline-block;
+                margin-right: 13px;
+                padding-top: 10px;
+                padding-right: 2px;
+                width: 46px;
+                height: 46px;
+                text-align: center;
+                border-radius: 3px; 
+            }
+
+            .section-contact-us .info-text {
+                display: inline-block;
+                padding: 10px 15px;
+                vertical-align: top;
+                width: calc(100% - 66px);
+                border-radius: 3px;
+                min-height: 42px;
+            }
+
+                .section-contact-us .info-text::before {
+                    content: '';
+                    position: absolute;
+                    margin-top: 4px;
+                    margin-left: -31px;
+                    width: 16px;
+                    height: 16px;
+                    border-width: 8px;
+                    border-style: solid;
+                    border-color: transparent;
+                }
+
+    .section-contact-us .social-links {
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,.2), 0 0 15px rgba(0,0,0,.15);
+    }
+
+        .section-contact-us .social-links li {
+            display: inline-block;
+            margin: 30px;
+            width: 30px;
+            opacity: .85;
+            transition: all .2s;
+        }
+
+            .section-contact-us .social-links li:hover {
+                opacity: 1;
+            }
+            footer.second p,
+.second a {
+    text-align: center;
+    color: #fff;
+    font-size: 160%;
+    line-height: 155%;
+}
+**********************************
+nav {
+    float: right;
+    padding: 25px 20px 0px 0px;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 150%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: red;
+}
+
+.current {
+    color: #3F5767;
+}
+
+a:hover {
+    color: #a5bdcd;
+}
+
+
+
+  .slider1 {
+    max-width: 2500px;
+    color: red;
+    display: block;
+    position: relative;
+  }
+  
+  .slider1 img {
+    width: 100%;
+    max-width: 2500px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+  }
+  @media screen and (max-width: 600px){
+    .slider li img{
+        width: 600px;
+    }
+  }
+
+.one-third {
+    width: 31.5%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon-wrap {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    background-color: #6991ac;
+    border-radius: 125px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.icon-wrap i {
+    text-align: center;
+    color: #ffffff;
+    font-size: 450%;
+    padding: 20%;
+}
+
+
+/* SECTION 2*/
+
+.left-col {
+    float: left;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    padding: 1%;
+}
+
+.sidebar {
+    float: right;
+    margin: 0 auto;
+    width: 32%;
+    height: auto;
+    padding: 1%;
+}
+
+
+/* ONE THIRD PADDING*/
+
+.one-third-padding {
+    width: 29%;
+    float: left;
+    margin: 2% 2%;
+}
+
+.clearfix-padding {
+    clear: both;
+    padding: 2%;
+}
+
+footer {
+    background: #2c3e50;
+    width: 100%;
+    overflow: auto;
+}
+
+.icon-text {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icon-text-icon {
+    float: left;
+    width: 20%;
+    padding: 4%;
+}
+
+.icon-text-text {
+    float: left;
+    width: 60%;
+    padding: 4% 4% 2% 0;
+    font-size:
+}
+
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav a {
+    font-size: 160%;
+    color: #c3d7df;
+    font-weight: 300;
+}
+
+.footer-nav a:hover {
+    color: #f5f5f5;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 420%;
+    margin: 1%;
+    padding: 5%;
+    color: #c3d7df;
+}
+
+.social i:hover {
+    color: #f5f5f5;
+}
+
+footer.second {
+    border-top: 1px solid #aadcd2;
+    text-align: center;
+    margin: 0;
+}
+
+footer.second p,
+.second a {
+    text-align: center;
+    color: #fff;
+    font-size: 160%;
+    line-height: 155%;
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 130%;
+    }
+    h3 {
+        font-size: 150%;
+    }
+    header {
+        height: 80px;
+        position: relative;
+    }
+    header #logo {
+        margin: 15px 0 20px -25px;
+    }
+    .mario_logo{
+  width: 15%;
+  transition: transform 1s;
+}
+.mario_logo:hover{
+  transform: scale(2.5)
+}
+    #menu-icon {
+        display: inline-block;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav ul,
+    nav:active ul {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background: #f5f5f5;
+        border: 1px solid #a5bdcd;
+        right: 20px;
+        width: 30%;
+        opacity: .95;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+    }
+    .one-third {
+        float: left;
+        width: 100%;
+        border: 2px;
+    }
+    .icon-wrap {
+        height: 80px;
+        width: 80px;
+        margin-top: 3%;
+        border: 3px solid;
+  width: 400;
+    }
+    .icon-wrap i {
+        font-size: 250%;
+        padding-top: 27%;
+        border: 3px solid;
+  width: 400;
+    }
+    .left-col {
+        width: 100%;
+        padding: 0;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .one-third-padding {
+        width: 98%;
+        margin: 0;
+        padding: 1%;
+        border: 2px;
+    }
+    .icon-text-icon {
+        width: 100%;
+        padding: 0 0 2% 0;
+    }
+    .icon-text-text {
+        width: 100%;
+        padding: 2% 0 0 0;
+        font-size: 80%;
+    }
+    .footer-nav {
+        margin: 0 auto;
+        text-align: center;
+        padding: 5%;
+    }
+    .footer-nav li {
+        padding: 1%;
+    }
+
+}
